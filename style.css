@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url("images/bg-pattern-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 890px;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #FF585F;
+    border-bottom-left-radius: 8rem;
+    color: #ffffff;
+}
+.smallSec{
+    background-color: #393A58;
+    color: #ffffff;
+}
+footer{
+    background-color: #24242C;
+    color: #ffffff;
+}
