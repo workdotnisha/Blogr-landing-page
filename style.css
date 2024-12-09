@@ -66,8 +66,25 @@ header .content h1{
     border: 1px solid #ffffff;
 }
 .smallSec{
+    border-radius: 0 0 0 2rem;
     background: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
     color: #ffffff;
+}
+#introduction .content{
+    display: flex;
+    flex-direction: column;
+}
+#infrastructure .content{
+    display: flex;
+    flex-direction: column;
+}
+#introduction .container .image{
+    width: 80%;
+    height: auto;
+}
+#infrastructure .container img{
+    width: 100%;
+    height: auto;
 }
 footer{
     background-color: #24242C;
