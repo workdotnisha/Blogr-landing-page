@@ -74,17 +74,23 @@ header .content h1{
     display: flex;
     flex-direction: column;
 }
+#introduction {
+    margin: 3rem 0;
+}
+#infrastructure .container .image{
+    width: 80%;
+    height: auto;
+}
 #infrastructure .content{
     display: flex;
     flex-direction: column;
 }
-#introduction .container .image{
-    width: 80%;
-    height: auto;
-}
 #infrastructure .container img{
     width: 100%;
     height: auto;
+}
+#infrastructure .container h1{
+    m
 }
 footer{
     background-color: #24242C;
