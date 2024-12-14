@@ -92,20 +92,33 @@ header .content h1{
 #introduction {
     margin: 3rem 0;
 }
+#infrastructure{
+    border-radius: 0 6rem 0 6rem;
+    margin-top: 12rem;
+    padding: 0 5rem;
+}
 #infrastructure .container .image{
-    width: 80%;
+    width: 90%;
     height: auto;
 }
 #infrastructure .content{
     display: flex;
     flex-direction: column;
+    /* width: 90%; */
+    align-items: center;
+    justify-content: center;
 }
 #infrastructure .container img{
+    margin-top: -10rem;
     width: 100%;
     height: auto;
+    /* margin-left: 4rem; */
 }
 #infrastructure .container h1{
-    m
+    margin: 2rem 0;
+}
+#infrastructure .container p{
+    margin: 1rem 0 3rem 0;
 }
 footer{
     background-color: #24242C;
