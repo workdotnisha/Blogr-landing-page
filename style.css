@@ -120,7 +120,28 @@ header .content h1{
 #infrastructure .container p{
     margin: 1rem 0 3rem 0;
 }
+#simple{
+    margin: 3rem 0;
+    padding: 0 5rem;
+
+}
+#simple .container .content h1{
+    margin: 2rem 0;
+    color: #183A57;
+    
+}
 footer{
     background-color: #24242C;
     color: #ffffff;
+    border-radius: 0 8rem 0 0;
+    padding: 5rem;
+}
+footer .logo{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+footer ul li{
+    list-style: none;
+    margin: 1rem 0;
 }
