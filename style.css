@@ -131,17 +131,27 @@ header .content h1{
     
 }
 footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #24242C;
     color: #ffffff;
     border-radius: 0 8rem 0 0;
-    padding: 5rem;
+    padding: 6rem;
 }
 footer .logo{
     display: block;
     align-items: center;
     justify-content: center;
 }
+.product h5{
+    margin: 2rem 0;
+}
+footer ul{
+    margin: 2rem 0;
+}
 footer ul li{
     list-style: none;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
