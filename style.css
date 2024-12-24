@@ -89,7 +89,7 @@ header .content h1{
     justify-content: center;
     text-align: center;
 }
-#infrastructure .container .content .content-para{
+#introduction .container .content .content-para{
     display: flex;
     flex-direction: column;
     align-items:left ;
@@ -126,6 +126,12 @@ header .content h1{
 }
 #infrastructure .container p{
     margin: 1rem 0 3rem 0;
+}
+#infrastructure .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #simple{
     margin: 3rem 0;
@@ -168,5 +174,7 @@ footer ul li{
         flex-direction: row-reverse !important;
         align-items:left ;
     }
-    
+    #infrastructure .container{
+        flex-direction: row;
+    }
 }
