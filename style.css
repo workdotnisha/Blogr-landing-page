@@ -177,4 +177,7 @@ footer ul li{
     #infrastructure .container{
         flex-direction: row;
     }
+    #simple {
+        flex-direction: row;
+    }
 }
