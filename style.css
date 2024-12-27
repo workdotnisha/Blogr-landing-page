@@ -190,6 +190,7 @@ footer ul li{
         justify-content: space-around;
         align-items: center;
         width: 50%;
+        list-style: none;
     }
     #introduction .container .content{
         flex-direction: row-reverse !important;
