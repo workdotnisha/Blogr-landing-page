@@ -191,6 +191,11 @@ footer ul li{
         align-items: center;
         width: 50%;
         list-style: none;
+
+    }
+    nav .nav-content ul li a{
+        color: #ffffff;
+        text-decoration: none;
     }
     #introduction .container .content{
         flex-direction: row-reverse !important;
