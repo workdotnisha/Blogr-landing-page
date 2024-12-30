@@ -37,6 +37,12 @@ h1{
     font-weight: 800;
     border: none;
 }
+.login button:hover{
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+}
 .logo{
     width: 60px;
     height: 30px;
