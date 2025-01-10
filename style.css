@@ -27,8 +27,10 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
+    background: linear-gradient(to right,#FF896F, #FF585F);
     /* margin: 1rem 0; */
 }
+
 nav .hamburger{
     display: flex;
 }
@@ -36,9 +38,12 @@ nav .nav-content{
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 65px;
+    left: 0;
     width: 100%;
     padding: 1rem;
+    background: linear-gradient(to right,#FF896F, #FF585F);
+    border-radius:0 0 1.3rem 1.3rem;
     /* justify-content: space-around; */
     /* align-items: center; */
     /* width: 100%; */
@@ -47,19 +52,35 @@ nav .nav-content{
 nav .nav-content.active{
     display: flex;
 }
+
 .nav-content ul{
     /* margin: 1rem; */
     list-style: none;
     flex-direction: column;
     display: flex;
+   
     gap: 1rem;
     margin: 0;
     flex-direction: column;
 }
-.nav-content ul li a{
+.nav-content ul li select{
+    background: none;
+    border: none;
     color: #ffffff;
     text-decoration: none;
 }
+.nav-content ul li select:focus,
+.nav-content ul li select:active{
+    border: none;
+}
+.nav-content ul li select option{
+    background: #FF896F;
+    color: #ffffff;
+}
+.nav-content ul li select option:hover{
+    background: #FF585F;
+}
+
 .menu-toggle{
     display: block;
     font-size: 1.5rem;
@@ -94,6 +115,7 @@ h1{
     border: 1px solid #ffffff;
 }
 .logo{
+    margin-left: 8%;
     width: 60px;
     height: 30px;
 }
@@ -103,6 +125,7 @@ h1{
 }
 header .content{
     margin: 3rem 0;
+    padding: 4rem 0;
 }
 header .content h1{
     font-size: 2rem;
@@ -240,27 +263,34 @@ footer ul li{
 }
 
 @media (min-width: 768px){
-    nav .hamburger{
+    .menu-toggle{
         display: none;
     }
     nav .nav-content{
-        display: none;
+        /* display: none; */
         flex-direction: row;
+        top: 0;
+        left: 15%;
+        margin-top: 0.8rem;
+        background:none;
     }
-    nav .nav-content .active{
+    nav .nav-content{
         display: flex;
     }
     nav .nav-content ul{
         display: flex;
-        justify-content: space-around;
+        /* justify-content: space-around; */
         align-items: center;
+        flex-direction: row;
         width: 50%;
         list-style: none;
 
     }
-    nav .nav-content ul li a{
-        color: #ffffff;
-        text-decoration: none;
+    .login{
+        display: flex;
+        margin-left: 10%;
+        justify-content: space-around;
+        gap: 1rem;
     }
     #introduction .container .content{
         flex-direction: row-reverse !important;
