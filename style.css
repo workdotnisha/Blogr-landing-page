@@ -7,6 +7,9 @@
     font-size: 1rem;
     font-family: "Overpass", sans-serif;
 }
+body{
+    font-size: 16px;
+}
 
 header{
     padding: 2rem;
@@ -265,6 +268,9 @@ footer ul li{
 @media (min-width: 768px){
     .menu-toggle{
         display: none;
+    }
+    nav{
+        background: transparent;
     }
     nav .nav-content{
         /* display: none; */
