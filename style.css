@@ -13,12 +13,12 @@ body{
 
 header{
     padding: 2rem;
-    background: linear-gradient(to right,#FF896F, #FF585F), url("images/bg-pattern-intro-mobile.svg");
-    background-repeat: no-repeat;
-    background-size: 890px;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: #FF585F;
+    background:  url("images/bg-pattern-intro-mobile.svg"),linear-gradient(to right,#FF896F, #FF585F);
+    background-repeat: no-repeat;    
+    /* background-size: 100%; */
+    /* background-attachment: fixed; */
+    background-position: top right;
+    /* background-color: #FF585F; */
     border-bottom-left-radius: 8rem;
     color: #ffffff;
     height: auto;
@@ -30,7 +30,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    background: linear-gradient(to right,#FF896F, #FF585F);
+    /* background: linear-gradient(to right,#FF896F, #FF585F); */
     /* margin: 1rem 0; */
 }
 
@@ -159,6 +159,19 @@ header .content h1{
     border-radius: 0 0 0 2rem;
     background: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
     color: #ffffff;
+}
+#introduction .content{
+    position: relative;
+}
+.greyish{
+    position: absolute;
+    background-color: #8d8d8f;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 10%;
+    z-index: -1;
+
 }
 #introduction{
     margin: 4rem 0;
