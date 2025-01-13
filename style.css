@@ -117,6 +117,12 @@ h1{
     cursor: pointer;
     border: 1px solid #ffffff;
 }
+header button:hover{
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+}
 .logo{
     margin-left: 8%;
     width: 60px;
@@ -163,7 +169,7 @@ header .content h1{
 #introduction .content{
     position: relative;
 }
-.greyish{
+/* .greyish{
     position: absolute;
     background-color: #8d8d8f;
     border-radius: 50%;
@@ -172,7 +178,7 @@ header .content h1{
     top: 10%;
     z-index: -1;
 
-}
+} */
 #introduction{
     margin: 4rem 0;
     padding: 0 5rem;
