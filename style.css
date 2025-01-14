@@ -285,6 +285,7 @@ footer ul li{
 }
 
 @media (min-width: 768px){
+
     .menu-toggle{
         display: none;
     }
@@ -316,6 +317,13 @@ footer ul li{
         margin-left: 10%;
         justify-content: space-around;
         gap: 1rem;
+    }
+    header{
+        background:  url("images/bg-pattern-intro-desktop.svg"),linear-gradient(to right,#FF896F, #FE565D);
+        background-repeat: no-repeat;  
+        background-size:cover;  
+        background-position:center;
+        height: auto;
     }
     #introduction .container .content{
         flex-direction: row-reverse !important;
